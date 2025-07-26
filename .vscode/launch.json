@@ -1,0 +1,66 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "test",
+      "projectName": "vishnu-pro_ba54be3e"
+    },
+    {
+      "type": "java",
+      "name": "hel",
+      "request": "launch",
+      "mainClass": "hel",
+      "projectName": "vishnu_ab68b5de"
+    },
+    {
+      "type": "java",
+      "name": "over",
+      "request": "launch",
+      "mainClass": "over",
+      "projectName": "vishnu_ab68b5de"
+    },
+    {
+      "type": "java",
+      "name": "Over",
+      "request": "launch",
+      "mainClass": "Over",
+      "projectName": "vishnu_ab68b5de"
+    },
+    {
+      "type": "java",
+      "name": "array",
+      "request": "launch",
+      "mainClass": "array",
+      "projectName": "vishnu_ab68b5de"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "vishnu_ab68b5de"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/siddh/Desktop/vishnu",
+      "program": "c:/Users/siddh/Desktop/vishnu/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
