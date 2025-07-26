@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 API_KEY = os.getenv("API_KEY")
-# Ensure the API key is set
+# Ensure the API 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-pro")
 chat = model.start_chat(history=[])
