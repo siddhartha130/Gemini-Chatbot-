@@ -1,7 +1,8 @@
 import eel
 import google.generativeai as genai
+import os
 
-API_KEY = "AIzaSyC3xBgYpCphaDGjDXiNC9Z1DKSNVwr5wPk"
+API_KEY = os.getenv("API_KEY")
 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-pro")
